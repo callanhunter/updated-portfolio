@@ -8,7 +8,6 @@ In this project, I made a new portfolio using HTML, CSS, JavaScript, and Bulma. 
 
 - [Webpage Preview](#webpage-preview-)
 - [Code-Snippet](#code-snippet-)
-- [Usage](#usage-)
 - [Skill-Improved](#skill-improved-)
 - [Technologies](#technologies-)
 - [Authors](#authors-)
@@ -52,10 +51,6 @@ cmModalBackground.addEventListener("click", () => {
 })
 ```
 
-## Usage
-
-The link of the webpage is: https://callanhunter.github.io/updated-portfolio/
-
 ## Skill Improved
 
 - Bulma
@@ -69,6 +64,10 @@ The link of the webpage is: https://callanhunter.github.io/updated-portfolio/
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Bulma](https://bulma.io/)
+
+## Link
+
+https://callanhunter.github.io/updated-portfolio/
 
 ## Authors
 
