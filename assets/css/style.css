@@ -1,5 +1,6 @@
 body {
     background-color: blue;
+    
 }
 
 ul {
@@ -29,3 +30,10 @@ li:not(:last-of-type) {
 li:hover {
     background-color: aliceblue;
 }
+
+#contact {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
