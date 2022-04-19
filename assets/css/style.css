@@ -1,3 +1,31 @@
 body {
     background-color: blue;
 }
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background: white;
+    padding: 40px;
+    border: 25px solid blue;
+}
+
+li {
+    font-size: 25px;
+    padding: 0.5em 2em;
+}
+
+a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li:not(:last-of-type) {
+    border-right: 2px solid blue;
+}
+
+li:hover {
+    background-color: aliceblue;
+}
