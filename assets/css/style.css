@@ -30,6 +30,18 @@ li:hover {
     background-color: aliceblue;
 }
 
+#about-me {
+    font-size: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+    align-self: center;
+    color: white;
+}
+
+#bio {
+    color: white;
+}
+
 #projects {
     font-size: 40px;
     display: flex;
