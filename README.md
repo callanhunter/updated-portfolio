@@ -52,16 +52,16 @@ cmModalBackground.addEventListener("click", () => {
 })
 ```
 
-## Usage 💡
+## Usage
 
 The link of the webpage is:
 
 ## Skill Improved
 
-- Bulma\
-- HTML\
-- CSS\
-- JavaScript\
+- Bulma
+- HTML
+- CSS
+- JavaScript
 
 ## Technologies
 
