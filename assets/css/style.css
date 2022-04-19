@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    
 }
 
 ul {
@@ -44,5 +43,5 @@ li:hover {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-    color: blue;
+    color: black;
 }
