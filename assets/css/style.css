@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: black;
     
 }
 
@@ -9,7 +9,7 @@ ul {
     list-style-type: none;
     background: white;
     padding: 40px;
-    border: 25px solid blue;
+    border: 25px solid black;
 }
 
 li {
@@ -18,17 +18,25 @@ li {
 }
 
 a {
-    color: blue;
+    color: black;
     cursor: pointer;
     text-decoration: none;
 }
 
 li:not(:last-of-type) {
-    border-right: 2px solid blue;
+    border-right: 2px solid black;
 }
 
 li:hover {
     background-color: aliceblue;
+}
+
+#projects {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
 }
 
 #contact {
@@ -36,4 +44,5 @@ li:hover {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-  }
+    color: blue;
+}
