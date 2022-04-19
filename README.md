@@ -54,7 +54,7 @@ cmModalBackground.addEventListener("click", () => {
 
 ## Usage
 
-The link of the webpage is:
+The link of the webpage is: https://callanhunter.github.io/updated-portfolio/
 
 ## Skill Improved
 
