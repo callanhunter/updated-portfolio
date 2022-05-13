@@ -9,20 +9,53 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <nav>
+  <!-- <nav>
     <ul>
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="resume.pdf" target="_blank">Resume</a></li>
-    </ul>
+    </ul> -->
+    <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    </nav> -->
+    <nav class="level">
+      <p class="level-item has-text-centered">
+        <a href="resume.pdf">Resume</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a href="#projects" link is-info>Projects</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a href="assets/screenshot.jpg"></a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a href="#about-me"link is-info>About Me</a>
+      </p>
+      <p class="level-item has-text-centered">
+        <a href="#contact"link is-info>Contact</a>
+      </p>
+    </nav>
+
   <main>
-    <h2 id="about-me">About me</h2>
-    <section class="level-item text-is-centered">
-      <article class="media">
-        <figure class="media-left">
-          <p class="image is-128x128">
-            <img class="is-rounded"src="assets/screenshot.jpg">
+    <h2 id="about-me">Welcome!</h2>
+    <section class="">
+      <article class="">
+        <figure class="">
+          <p>
+            <figure class="image is-3by2">
+              <img src="assets/screenshot.jpg">
+            </figure>
           </p>
         </figure>
         <div class="media-content">
@@ -30,7 +63,18 @@
             <p id="bio">
               <br>
               <br>
-              Welcome! My name is Callan Hunter and I am a student at UC Berkeley Coding Bootcamp. I'm interested in pursuing a career in being a Full-Stack Engineer! Down below are my projects I have completed and my contact info as well.
+              <ul>
+                <li>
+                  Welcome! My name is Callan Hunter and I am a student at UC Berkeley Coding Bootcamp. I'm interested in pursuing a career in being a Full-Stack Engineer! Down below are my projects I have completed and my contact info as well.
+                </li>
+                <li>
+                  Skills
+                  Software: [Proficient]: HTML/CSS, JavaScript, jQuery, Bulma, Bootstrap, DOM
+                  Manipulation, Git, Github
+
+                </li>
+              </ul>
+              
             </p>
           </div>
         </div>
@@ -39,7 +83,15 @@
     <section>
     
     <h2 id="projects">Projects</h2>
-    <div class="level-item text-is-centered buttons">
+      <div class="is-centered">
+        <div class="buttons is-centered">
+          <a href="https://user-images.githubusercontent.com/101283174/163512126-d8f0d253-8d8f-4f7d-9a83-010d1c50411c.gif"><button id="start-button" class="button is-outlined">Celebrity Matchmaker</button></a>
+          <a href="https://drive.google.com/file/d/17y4F-cRet6GzQsdZQrFttVphTxKJxcuM/view"><button id="start-button" class="button is-outlined">Weather Dashboard</button></a>
+          <a href="https://drive.google.com/file/d/1GwS-fUTwKLpSorddB6QVXwhcOxoq31-o/view"><button id="start-button" class="button is-outlined">Password Generator</button></a>
+        </div>
+      </div>
+
+    <!-- <div class="level-item text-is-centered buttons">
       <button class="button is-large" id="cm-button">Celebrity Matchmaker</button>
       <button class="button is-large" id="wd-button">Weather Dashboard</button>
       <button class="button is-large" id="pg-button">Password Generator</button>
@@ -59,26 +111,19 @@
             <img src="https://drive.google.com/file/d/17y4F-cRet6GzQsdZQrFttVphTxKJxcuM/view" alt="">
           </p>
           </div>
-        </div>
+        </div> -->
     </section>
 
-    <section>
-        <div class="modal" id="password-generator">
-          <div class="modal-background" id="pg-background"></div>
-          <div class="modal-content has-background-white py-5 px-5">
-              <img src="https://drive.google.com/file/d/1GwS-fUTwKLpSorddB6QVXwhcOxoq31-o/view" alt="">
-            </p>
-            </div>
-          </div>
-    </section>
     <section class="footer">
       <h2 id="contact">Contact</h2>
-      <ul>
+      <div class="breadcrumb is-centered" aria-label="breadcrumbs">
+        <ul>
           <li><a href="https://www.linkedin.com/in/callan-hunter-195816196/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/callanhunter" target="_blank">Github</a></li>
+          <li><a href="https://github.com/callanhunter" target="_blank">GitHub</a></li>
+          <li><a href="#">(505)555-5555</a></li>
           <li><a href="#">callan57hunter@gmail.com</a></li>
-          <li><a href="#">(555) 555-5555</a></li>
-      </ul>
+        </ul>
+      </div>
   </section>
   <script src="./assets/js/script.js"></script>
 </body>

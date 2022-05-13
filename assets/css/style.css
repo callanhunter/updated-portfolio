@@ -2,20 +2,29 @@ body {
     background-color: black;
 }
 
+
+a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+
 ul {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     list-style-type: none;
     background: white;
     padding: 40px;
     border: 25px solid black;
 }
-
 li {
     font-size: 25px;
     padding: 0.5em 2em;
+    list-style-type: none;
 }
-
+/*
 a {
     color: black;
     cursor: pointer;
@@ -29,7 +38,7 @@ li:not(:last-of-type) {
 li:hover {
     background-color: aliceblue;
 }
-
+*/
 #about-me {
     font-size: 40px;
     padding-bottom: 25px;
@@ -46,7 +55,7 @@ li:hover {
     font-size: 40px;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 40px;
     color: white;
 }
 
@@ -56,6 +65,5 @@ li:hover {
     font-size: 40px;
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
     color: black;
-}
+} 
